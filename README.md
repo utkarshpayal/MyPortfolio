@@ -1,9 +1,12 @@
-# Utkarsh_portfolio
-It is a personal portfolio website
-![image](https://github.com/utkarshpayal/Utkarsh_portfolio/assets/104209135/7442b167-e2a4-46e7-a0be-e9b22b22e344)
+# Utkarsh portfolio 📄
+It is a personal portfolio website  
+
+![image](/image.png)
 
 Technologies used : 
-                      1.HTML
-                      2.CSS
-                      3.JavaScript
-Link: https://utkarsh-payal.netlify.app/
+- HTML
+- CSS
+- JavaScript
+
+
+Link: [Click here](https://utkarsh-payal.netlify.app/)
