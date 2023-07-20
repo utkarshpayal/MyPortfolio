@@ -10,6 +10,7 @@
    scroll-padding-top: 2rem;
    font-family: "Poppins", sans-serif;
  }
+ 
 
  :root {
    --main-color: #033a80;
@@ -20,6 +21,7 @@
    --medium-font: 1.8rem;
    --p-font: 0.941rem;
  }
+ 
 
  section {
    padding: 50px 10%;
@@ -566,3 +568,44 @@
      margin-left: 25%;
    }
  }
+
+
+/* Add this CSS to style the projects section */
+.services-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-items: center;
+  gap: 20px;
+}
+
+.services-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+
+.services-box h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
+}
+
+.services-box span {
+  font-size: var(--p-font);
+  font-weight: 400;
+}
+
+.services-box a {
+  color: var(--main-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+}
+
+.services-box a:hover {
+  color: #8b8a8f;
+}
