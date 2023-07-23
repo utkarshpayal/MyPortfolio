@@ -609,3 +609,88 @@
 .services-box a:hover {
   color: #8b8a8f;
 }
+	
+	
+	
+	
+	
+	
+	
+/* ... Existing CSS ... */
+
+/* The container for all the pills */
+.pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 960px; /* Set a maximum width to prevent overflow */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+/* Styles for all the pills */
+.common-pill {
+  font-weight: 600;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Open Sans';
+  background-color: var(--main-color);
+  color: #fff;
+  transition: background-color .3s, color .3s, transform .2s;
+  flex: 0 1 calc(33.33% - 20px); /* 33.33% - 20px to account for margins */
+  margin: 10px;
+  white-space: nowrap;
+}
+
+/* Set a specific size for the largest pill */
+/* .l-outline-pill {
+  flex: 0 1 40%; /* The largest pill will take up to 40% of the container's width */
+
+/* Styles for pill hover effects */
+.common-pill:hover {
+  background-color: var(--hover);
+  transform: scale(1.1); /* Add a scale transformation to create an effect on hover */
+}
+
+/* Media query for responsiveness on smaller screens */
+@media screen and (max-width: 960px) {
+  .common-pill {
+    /* Show 2 pills in a row on smaller screens */
+    flex: 0 1 calc(50% - 20px); /* 50% - 20px to account for margins */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pill-container {
+    flex-direction: column; /* Stack the pills vertically on smaller screens */
+    align-items: center; /* Center the pills horizontally */
+  }
+  /* Override the width for all pills to take full width on smaller screens */
+  .common-pill {
+    flex: 0 1 calc(100% - 20px); /* 100% - 20px to account for margins */
+    max-width: none; /* Remove the maximum width on smaller screens */
+    width: 100%;
+
+  }
+}
+
+
+/* ... Existing CSS ... */
+
+/* ... Existing CSS ... */
+
+/* Animation for fading in and sliding up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ... Existing CSS ... */
+
+
