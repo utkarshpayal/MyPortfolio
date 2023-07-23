@@ -42,3 +42,16 @@ const form = document.querySelector('form[name="contact"]');
             console.error(error);
         });
     });
+    
+    
+    
+    
+    
+    function animatePills() {
+    const pills = document.querySelectorAll('.common-pill');
+
+    pills.forEach((pill, index) => {
+      // Add a delay to each pill animation
+      pill.style.animation = `fadeInUp 0.5s ${index * 0.1}s both`;
+    });
+  }
