@@ -9,4 +9,4 @@ Technologies used :
 - JavaScript
 
 
-Link: [Click here](https://utkarsh-payal.netlify.app/)
+Link: [Click here](https://utkarsh-payal.me/)
