@@ -17,6 +17,9 @@ window.onscroll = () => {
 let darkmode = document.querySelector("#darkmode");
 let isDarkMode = true; // Set the initial mode to dark mode
 
+// Add "active" class to document.body on page load
+document.body.classList.add("active");
+
 darkmode.onclick = () => {
   if (darkmode.classList.contains("bx-moon")) {
     darkmode.classList.replace("bx-moon", "bx-sun");
@@ -26,6 +29,7 @@ darkmode.onclick = () => {
     document.body.classList.remove("active");
   }
 };
+
 
 const form = document.querySelector('form[name="contact"]');
     form.addEventListener('submit', (event) => {
