@@ -15,6 +15,7 @@ window.onscroll = () => {
 
 // Dark Mode / light mode
 let darkmode = document.querySelector("#darkmode");
+let isDarkMode = true; // Set the initial mode to dark mode
 
 darkmode.onclick = () => {
   if (darkmode.classList.contains("bx-moon")) {
