@@ -166,6 +166,16 @@
  .social a:hover {
    color: var(--hover);
  }
+/* LeetCode icon style */
+.bx.bxl-leetcode::before {
+    content: url('leetcode.svg');
+}
+
+/* GeeksforGeeks icon style */
+.bx.bxl-gfg::before {
+    content: url('path-to-your-gfg-icon.png');
+}
+
 
  .btn {
    display: inline-block;
@@ -610,14 +620,6 @@
   color: #8b8a8f;
 }
 	
-	
-	
-	
-	
-	
-	
-/* ... Existing CSS ... */
-
 /* The container for all the pills */
 .pill-container {
   display: flex;
@@ -641,10 +643,6 @@
   margin: 10px;
   white-space: nowrap;
 }
-
-/* Set a specific size for the largest pill */
-/* .l-outline-pill {
-  flex: 0 1 40%; /* The largest pill will take up to 40% of the container's width */
 
 /* Styles for pill hover effects */
 .common-pill:hover {
@@ -674,11 +672,6 @@
   }
 }
 
-
-/* ... Existing CSS ... */
-
-/* ... Existing CSS ... */
-
 /* Animation for fading in and sliding up */
 @keyframes fadeInUp {
   0% {
@@ -690,7 +683,3 @@
     transform: translateY(0);
   }
 }
-
-/* ... Existing CSS ... */
-
-
