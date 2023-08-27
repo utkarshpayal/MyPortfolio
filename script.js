@@ -13,12 +13,16 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
-// Dark Mode / light mode
-let darkmode = document.querySelector("#darkmode");
-let isDarkMode = true; // Set the initial mode to dark mode
+// Dark Mode / Light Mode
+const darkmode = document.querySelector("#darkmode");
 
-// Add "active" class to document.body on page load
-document.body.classList.add("active");
+// Check if the user's preference is set to dark mode by default
+const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+if (prefersDarkMode) {
+  darkmode.classList.replace("bx-moon", "bx-sun");
+  document.body.classList.add("active");
+}
 
 darkmode.onclick = () => {
   if (darkmode.classList.contains("bx-moon")) {
