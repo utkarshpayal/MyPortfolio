@@ -166,16 +166,6 @@
  .social a:hover {
    color: var(--hover);
  }
-/* LeetCode icon style */
-.bx.bxl-leetcode::before {
-    content: url('leetcode.svg');
-}
-
-/* GeeksforGeeks icon style */
-.bx.bxl-gfg::before {
-    content: url('path-to-your-gfg-icon.png');
-}
-
 
  .btn {
    display: inline-block;
