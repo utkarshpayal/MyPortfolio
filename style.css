@@ -13,10 +13,10 @@
  
 
  :root {
-   --main-color: #033a80;
+   --main-color: #1e165e;
    --bg-color: #fff;
-   --text-color: #0f0c27;
-   --hover: hsl(260, 100%, 51%);
+   --text-color: #333;
+   --hover: hsl(213, 76%, 37%);
    --big-font: 3.2rem;
    --medium-font: 1.8rem;
    --p-font: 0.941rem;
@@ -52,7 +52,7 @@
 
  .heading span {
    font-size: var(--p-font);
-   color: rgb(2, 166, 70);
+   color: #087435;
  }
 
  header {
@@ -311,7 +311,7 @@
    margin: 0.7rem 0 0.4rem;
  }
 
- .services-box:hover h3 {
+ .services-box:hover {
    color: #fff;
  }
 
